@@ -13,4 +13,10 @@ Create a limited-permission IAM user that can only **read** from S3 (no write/up
 6. Create user → Save access keys
 
 ## 🔐 Sign-in
-Use the AWS account sign-in URL:
+Use the AWS account sign-in URL: https://<account-id-or-alias>.signin.aws.amazon.com/console
+
+## 🧪 Test
+
+- ✅ Login as `dev-user` — can list and download from S3
+- ❌ Try uploading to S3 — fails with `AccessDenied`
+
